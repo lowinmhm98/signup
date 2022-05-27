@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Norse;
+    src: url(./Norse-Bold.otf);
+  }
+
+
+
+
+
+
+
+body {
+    display:flex;
+    height:100vh;
+    margin:0;
+    font-family: sans-serif
+    
+}
+
+
+.subscribesec {
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.inputsec {
+    padding: 0px 40px 20px;
+    color:rgb(28, 24, 59);
+    box-shadow: 10px 5px 10px gray;
+    font-weight:bold;
+
+    
+    
+   
+}
+
+
+
+ul {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    margin:0;
+    padding:0px;
+    gap:8px;
+    font-size:12px;
+    
+    
+}
+
+
+ul div {
+    display:flex;
+    gap:100px
+    
+}
+
+li {
+    display:flex;
+    flex-direction: column;
+    width:200px
+    
+}
+
+
+.descrisec {
+    padding:100px 40px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+
+form {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+
+    
+    
+}
+
+
+button {
+    align-self: flex-start;
+    background-color:#596D48;
+    border-radius: 5px;
+    border:1px solid #596D48;
+    padding:10px 32px 10px ;
+    color:white;
+    font-weight: bold;
+    
+}
+
+label {
+    font-size: 10px;
+    
+    letter-spacing: 1px;
+}
+
+input {
+    border:1px solid #E5E7EB;
+   
+
+}
+
+input:focus {
+    border:1px solid blue;
+    border-radius: 5px;
+   outline: none;
+   
+    
+}
+
+
+.logosection {
+    background-image: url("./images/logo.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+.logo {
+   display:flex;
+  
+   justify-content: center;
+   width:400px;
+   background: rgba(0, 0, 0, 0.3);
+   font-family: Norse;
+   align-items: center;
+   height:140px;
+   margin-top:100px;
+}
+
+img {
+    height:100px;
+    width:auto;
+   
+}
+
+
+.logo p {
+    font-size: 80px;
+    color:white
+}
+
+
+.error {
+    border:1px solid red;
+    
+}
+
+.pserror {
+    font-weight: 200;
+    color:red;
+    font-size: 10px;
+    
+    
+}
+
+
+.footer {
+    display:flex;
+    flex-direction: column;
+    padding: 20px 40px 0px;
+
+}
+
+
+

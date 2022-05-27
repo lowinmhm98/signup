@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div  class="logosection">
+    <div class="logo">
+        <img src="./images/logo.png">
+        <p>ODIN</p>
+
+
+     </div>
+</div>
+<div class="subscribesec">
+    <div class="descrisec">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+        <p>You know you want to.</p>
+    </div>
+    <div class="inputsec">
+        <p>Let's do this!</p>
+        <form id="form1">
+            <ul>
+            <div>
+                <li>
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" name="firstName" required>
+                </li>
+                <li>
+                <label for="LastName">LAST NAME</label>
+                <input type="text" id="LastName" name="LastName" required>
+                </li>
+            </div>
+            <div>
+                <li>
+                <label for="Email">EMAIL</label>
+                <input type="email" id="Email" name="Email" required>
+                </li>
+                <li>
+                <label for="PhoneNum">PHONE NUMBER</label>
+                <input type="number" id="PhoneNum" name="PhoneNum" required>
+                </li>
+
+            </div>
+            <div>
+                <li>
+                <label for="Psw">PASSWORD</label>
+                <input type="password" class="error" id="Psw" name="Psw" required minlength="8" maxlength="16" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}" title="Invalid password">
+                <div class="pserror">*Passwords don't match</div>
+                </li>
+                <li>
+                <label for="CPsw">CONFIRM PASSWORD</label>
+                <input type="password"  class="error" id="CPsw" name="CPsw" required>
+                </li>
+            </div>
+            </ul>
+            
+
+        </form>
+
+    </div>
+    <div class="footer">
+        <button type="submit" form="form1">Create Account</button>
+
+    </div>
+</div>
+</body>
+</html>
